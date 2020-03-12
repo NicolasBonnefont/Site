@@ -14,7 +14,7 @@ Segue as Tecnologias aplicadas:
 4. Rode no terminal do windows o comando na pasta raiz do projeto: 'YARN' e aguarde
 5. Rode o comando: adonis serve --dev
 
-Por padrão, vai subri o site no caminho 127.0.0.1:3000
+Por padrão, vai subir o site no caminho 127.0.0.1:3000
 Caso queira mudar o host e a porta, alterar o arquivo no projeto: .env
 
 
