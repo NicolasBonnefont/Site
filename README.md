@@ -21,5 +21,5 @@ Caso queira mudar o host e a porta, alterar o arquivo no projeto: .env
 ## Documentação.
 
 Para mais informaçoes, acesse o site: 
-https://adonisjs.com/
-https://nodejs.org/en/
+1. https://adonisjs.com/
+2. https://nodejs.org/en/
