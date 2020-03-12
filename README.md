@@ -1,28 +1,25 @@
 # Site institucional da MOR INFORMATICA
 
-Segue algumas das caracteristicas:
+Segue as Tecnologias aplicadas:
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+1. Nodejs V12
+2. AdonisJS v4.1
+3. HTML5/CSS3/JS
 
 ## Setup
 
-Use the adonis command to install the blueprint
+1. Faça o clone deste repositório
+2. Instale o NodeJS
+3. Instale o gerenciado de pacote YARN
+4. Rode no terminal do windows o comando na pasta raiz do projeto: 'YARN' e aguarde
+5. Rode o comando: adonis serve --dev
 
-```bash
-adonis new yardstick --api-only
-```
-
-or manually clone the repo and then run `npm install`.
+Por padrão, vai subri o site no caminho 127.0.0.1:3000
+Caso queira mudar o host e a porta, alterar o arquivo no projeto: .env
 
 
-### Migrations
+## Documentação.
 
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+Para mais informaçoes, acesse o site: 
+https://adonisjs.com/
+https://nodejs.org/en/
