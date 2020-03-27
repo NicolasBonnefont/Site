@@ -10,7 +10,7 @@ Segue as Tecnologias aplicadas:
 
 1. Faça o clone deste repositório
 2. Instale o NodeJS
-3. Instale o gerenciado de pacote YARN
+3. Instale o gerenciador de pacote YARN
 4. Rode no terminal do windows o comando na pasta raiz do projeto: 'YARN' e aguarde
 5. Rode o comando: adonis serve --dev
 
