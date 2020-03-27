@@ -1,4 +1,4 @@
-# Site institucional da MOR INFORMATICA
+# Landing Page da MOR INFORMATICA
 
 http://morinfo.com.br
 
