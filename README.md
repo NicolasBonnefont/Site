@@ -1,25 +1,17 @@
-# Site institucional da MOR INFORMATICA
+# Desenvolvimento da nova LandingPage da MORINFO
 
-Segue as Tecnologias aplicadas:
+Fase para estudos de Layouts e comportamentos das páginas.
+http://morinfoteste-com-br.umbler.net/
 
-1. Nodejs V12
-2. AdonisJS v4.1
-3. HTML5/CSS3/JS
+## Instalação :
 
-## Setup
+1. Faça o Download do projeto.
+2. Na raiz, abra o terminal e rode: "node install" e em seguida "adonis serve --dev"
+3. Não esquecer de configurar o arquivo .env na parte de HOST e colocar "127.0.0.1"
 
-1. Faça o clone deste repositório
-2. Instale o NodeJS
-3. Instale o gerenciado de pacote YARN
-4. Rode no terminal do windows o comando na pasta raiz do projeto: 'YARN' e aguarde
-5. Rode o comando: adonis serve --dev
+## Features ok :
+1. Nodjs no Backend com as Rotas e o Framework Adonis
+2. Nodejs Responsável por envio de E-mail na página principal.
+3. Uso do Edege como teste de Template Engine
 
-Por padrão, vai subir o site no caminho 127.0.0.1:3000
-Caso queira mudar o host e a porta, alterar o arquivo no projeto: .env
-
-
-## Documentação.
-
-Para mais informaçoes, acesse o site: 
-1. https://adonisjs.com/
-2. https://nodejs.org/en/
+EM DESENVOLVIMENTO...

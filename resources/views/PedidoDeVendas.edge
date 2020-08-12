@@ -1,0 +1,76 @@
+<!--importação do menu-->
+@include('navbar/nav')
+<link href="./css/global/global.css" rel="stylesheet" />
+
+<div class="page-header header-filter topo" data-parallax="true" style="background-image: url('./img/erp.jpeg');"
+  id="Top">
+</div>
+
+<div class="main main-raised ">
+  <br>
+  <div class="text-center">
+    <img src="" class="img-fluid">
+  </div>
+  <h2 class="title text-center">Pedidos de Vendas</h2><br>
+  <div class="section fundoGelo">
+    <div class="container text-center">
+      <div class="row ">
+        <div class="col-sm-6">
+          <img class="imgProd" src="./img/sistema/pedidosdevendas/pedidos.png" alt="">
+        </div>
+        <div class="col-sm-6"><br><br>
+          <h3>Visualização de tudo que esta pendente em uma tela, com status de
+            cada pedido destacados com cores.</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="section">
+      <div class="container text-center">
+        <div class="row ">
+          <div class="col-sm-6"><br><br>
+            <h3>Gestão de condição de pagamento (possibilidade de configurar
+               diferentes percentuais, e prazos na mesma condição de pagamento),
+                Múltiplos percentuais de descontos.
+               Flexibilizando os descontos aplicados nos itens inseridos no pedido.</h3>
+          </div>
+          <div class="col-sm-6">
+            <img class="imgProd" src="./img/sistema/pedidosdevendas/descontos.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section fundoGelo">
+      <div class="container text-center">
+        <div class="row ">
+          <div class="col-sm-6">
+            <img class="imgProd" src="./img/sistema/pedidosdevendas/orcamento.png" alt="">
+          </div>
+          <div class="col-sm-6"><br><br>
+            <h3>Possibilidade de gerar um Pedido a partir de um Orçamento e reserva de estoque.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container text-center">
+        <div class="row ">
+          <div class="col-sm-6"><br><br>
+            <h3>Todo o histórico de logs do Pedido de Vendas</h3>
+          </div>
+          <div class="col-sm-6">
+            <img class="imgProd" src="./img/sistema/pedidosdevendas/logs.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+@include('email/email')
+</div>
+<script src="./js/erp/erp.js"></script>
+@include('footer/footer')

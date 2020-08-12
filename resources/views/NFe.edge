@@ -1,0 +1,106 @@
+<!--importação do menu-->
+@include('navbar/nav')
+<link href="./css/global/global.css" rel="stylesheet" />
+<link href="./css/nfe/nfe.css" rel="stylesheet" />
+
+<div class="page-header header-filter topo" data-parallax="true" style="background-image: url('./img/erp.jpeg');"
+  id="Top">
+
+</div>
+
+<div class="main main-raised ">
+  <br>
+  <div class="text-center">
+    <img src="" class="img-fluid">
+  </div>
+  <h2 class="title text-center">Notas Fiscais</h2><br>
+  <div class="section fundoGelo">
+    <div class="container text-center">
+      <div class="row ">
+        <div class="col-sm-6">
+          <img class="imgProd" src="./img/sistema/nfe/nfe.png" alt="">
+        </div>
+        <div class="col-sm-6"><br><br>
+          <h3>Visualização de tudo que esta pendente em uma tela, com a situação de
+            cada NF-e, envio automático de NF-e por e-mail com PDF e o XML, emissão
+            de notas fiscais de exportação/importação e Carta de correção Eletrônica  .</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="section">
+      <div class="container text-center">
+        <div class="row ">
+          <div class="col-sm-6"><br><br>
+            <h3>Gestão de condição de pagamento (possibilidade de configurar
+               diferentes percentuais, e prazos na mesma condição de pagamento),
+                Múltiplos percentuais de descontos.
+               Flexibilizando os descontos aplicados nos itens inseridos no pedido.</h3>
+          </div>
+          <div class="col-sm-6">
+            <img class="imgProd" src="./img/sistema/nfe/descontos.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section fundoGelo">
+      <div class="container text-center">
+        <div class="row ">
+          <div class="col-sm-6">
+            <img class="imgProd" src="./img/sistema/nfe/itens.png" alt="">
+          </div>
+          <div class="col-sm-6"><br><br>
+            <h3>Possibilidade de integração com outros ERPs através do xPed e nItemPed</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="section ">
+      <div class="container text-center">
+        <div class="row ">
+          <div class="col-sm-6"><br><br>
+            <h3>Cálculos tributários de forma bem detalhada e automática,
+              conforme as CFOPs utilizadas em cada item inserido.</h3>
+          </div>
+          <div class="col-sm-6">
+            <img class="imgProd" src="./img/sistema/nfe/tributos.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section fundoGelo">
+      <div class="container text-center">
+        <div class="row ">
+          <div class="col-sm-6">
+            <img class="imgProd" src="./img/sistema/nfe/vencimentos.png" alt="">
+          </div>
+          <div class="col-sm-6"><br><br>
+            <h3>Gestão de Formas e Tipos de Cobrança, integração com Contas a Receber</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section ">
+      <div class="container text-center">
+        <div class="row ">
+          <div class="col-sm-6"><br><br>
+            <h3>Histórico de LOGs de todas as alterações.</h3>
+          </div>
+          <div class="col-sm-6">
+            <img class="imgProd" src="./img/sistema/nfe/logs.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+@include('email/email')
+</div>
+<script src="./js/erp/erp.js"></script>
+@include('footer/footer')

@@ -2,287 +2,163 @@
 <html lang="pt-br">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MOR INFO</title>
-
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link href="css/principal.css" type="text/css" rel="stylesheet" media="screen,projection" />
-  <link rel="shortcut icon" href="img/logo.ico">
-
+  <title>
+    MOR INFO
+  </title>
 </head>
+@include('navbar/nav')
+<link href="./css/global/global.css" rel="stylesheet" />
+<link href="./css/principal/principal.css" rel="stylesheet" />
 
-<body>
+<body class="index-page sidebar-collapse">
+  <!--importação do menu-->
 
-  <!-- Parte menu   -->
-
-  <div class="navbar-fixed">
-
-    <nav class="white " role="navigation">
-      <div class="nav-wrapper container navbar-fixed">
-        <a id="logo-container" href="#" class="brand-logo"><img src="img/logo.png" alt="MOR INFO"></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a class="logo" href="http://morinfo.mysuite1.com.br/central.php" target="_blank"><i
-                class="material-icons left">group</i>Central do Cliente</a></li>
-          <li><a href="#"></a></li>
-        </ul>
-
-
-
-
-        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons ">menu</i></a>
-    </nav>
-
-
-  </div>
-  <ul id="slide-out" class="sidenav">
-      <li><div class="user-view">
-        <div class="background">
-          <img src="img/fundo-menu.jpg">
-        </div>
-        <a><span class="white-text name">Menu</span></a>
-        <a class="white-text" href="mailto:suporte@morinfo.com.br"><span class="white-text email">Email do Suporte</span></a>
-      </div></li>
-      <li><a href="http://morinfo.mysuite1.com.br/central.php" target="_blank"><i class="material-icons">group</i>Central do Cliente</a></li>
-      <!--<li><a href="#!"></a></li>
-      <li><div class="divider"></div></li>
-      <li><a class="subheader"></a></li>
-      -->
-    </ul>
-  <!--Fim Menu   -->
-  
-
-
-  <div id="index-banner" class="parallax-container ">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center white-text text-darken-4 ">Agilidade e Segurança</h1>
-        <h4 class="header center white-text text-darken-4 ">Soluções em processamento de dados e softwares altamente
-          customizáveis</h4>
-        <div class="row center">
-          <h5 class="header col s12 light"></h5>
-        </div>
-        <div class="row center">
-          <!--<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a> -->
-        </div>
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-
-
-  <div class="container">
-    <div class="section">
-
-      <!--  Um pouco da empresa   -->
-
-
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons ">timeline</i></h2>
-            <h5 class="center">Elevação do Knowledge através da customização e alta adaptabilidade.</h5>
-
-            <p class="light">Alta interatividade com usuário x interface. Relatórios precisos para tomadas de decisões
-              concretas e inteligentes. </p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">verified_user</i></h2>
-            <h5 class="center">Mais de 20 anos de experiência no Mercado.</h5> <br>
-
-            <h8 class="light">
-              Apoio à tomada de decisões.
-              Relatórios completos e precisos para tomadas de decisões concretas e concisas.
-
-            </h8>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Vantagem competitiva através da alta capacidade de automação.</h5>
-
-            <p class="light">
-              Sustentabilidade e alimentação de dados.
-            </p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h3 class="header col s12 light white-text">Sistema capaz de se adaptar em diversas necessidades ! </h3>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="img/background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Sobre a MOR</h4>
-          <p class="left-align light">
-            Somos uma empresa especializada no desenvolvimento de soluções em softwares, feitos através de uma analise
-            especializada, criando projetos customizáveis de acordo com a necessidade pontual de cada cliente.
-            Atuamos no mercado desde 1992, com sede na cidade de Diadema – SP, região conhecida por ser um importante
-            polo industrial em franco desenvolvimento.
-            Contamos com uma equipe de profissionais capacitados para desenvolver projetos que atendam empresas de
-            diferentes portes e ramos.
-          </p>
-        </div>
-      </div>
-
-
-
-
-      <!--  sessao dos servicos   -->
-
-      <div class="row">
-        <div class="col s14 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><img src="img/erp.png" alt=""></h2>
-            <p class="center">Comercial, Faturamento, Financeiro
-              , Escrita Fiscal, Folha de Pagamento, Contabilidade,
-              Apontamento de Produção,
-              Controle de Produção, Suporte a Decisão.
-            </p>
-
-
-          </div>
-        </div>
-
-        <div class="col s14 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><img src="img/temp.png" alt=""></h2>
-            <param class="center">Tratamento Térmico, Forno, Chão de Fabrica,
-            Recebimento, Produção, Qualidade, Faturamento, Relatórios.
-            </p>
-          </div>
-        </div>
-
-        <div class="col s14 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><img src="img/bi.png" alt=""></h2>
-            <p class="center">
-              Soluções avançadas e Personalizáveis.
-            </p>
-
-
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-
-
-
-  </div>
-
-
-  <div class="container ">
-    <div class="col s12 center">
-      <h4 class="dark-text">Localização</h4>
-    </div>
-
-    <div class="col s12 m6 14">
-      <div class="mapa transparent">
-        <iframe class="iframe"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.671237093635!2d-46.614498085019875!3d-23.687712284620353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448cae0aed29%3A0x10c2bcd9911aeb7c!2sR.+Dezenove+de+Novembro%2C+52+-+Centro%2C+Diadema+-+SP%2C+09912-140!5e0!3m2!1spt-BR!2sbr!4v1561499412264!5m2!1spt-BR!2sbr"
-          width="1000" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-
-    </div>
-
-  </div>
-
-  </div>
-
-  </div>
-
-
-
-
-
-
-  <footer class="page-footer teal">
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url('./img/fundo.jpg');"
+    id="Top">
     <div class="container">
       <div class="row">
-        <div class="col l3 s12">
-          <h5 class="white-text">Fale Conosco</h5>
-          <p class="grey-text text-lighten-4">
-
-          </p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Contatos :</h5>
-          <ul>
-            <li>(11) 4044-1008</li>
-            <li>(11) 4056-8491</li>
-            <li>(11) 2375-3470</li>
-            <li>(11) 2375-3471</li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Emails :</h5>
-          <ul>
-            <li><a class="white-text" href="mailto:suporte@morinfo.com.br">Suporte</a></li>
-            <li><a class="white-text" href="mailto:morinfo@morinfo.com.br">Comercial</a></li>
-          </ul>
+        <div class="col-md-12 ml-auto mr-auto">
+          <div class="brand">
+            <h2 class="">Com os softwares da MOR, você encontra as respostas certas para a gestão do seu negócio!
+              Soluções
+              para indústrias e comércios.</h2>
+          </div>
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container ">
-        Copyright <a class="blue-text " href="http://morinfo.com.br">MOR INFO</a>
+  </div>
+  <div class="main main-raised  ">
+    <div class="card ">
+      <iframe class="player " src="https://www.youtube.com/embed/9PLhyrl8Ewo?autoplay=1;mute=1" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="section">
+      <h2 class=" text-center title">Alguns de nossos clientes </h2>
+      <br>
+      <section class="customer-logos slider">
+        <div class="slide"><img src="img/empresa/almanara.png" alt="Almanara"></div>
+        <div class="slide"><img src="img/empresa/especifer.jpg" alt="Especifer"></div>
+        <div class="slide"><img src="img/empresa/biomedical.png" alt="Biomedical"></div>
+        <div class="slide"><img src="img/empresa/autoferr.png" alt="AutoFerr"></div>
+        <div class="slide"><img src="img/empresa/brasmeck.png" alt="Brasmeck"></div>
+        <div class="slide"><img src="img/empresa/bremauto.png" alt="Bremauto"></div>
+        <div class="slide"><img src="img/empresa/galva.png" alt="galva"></div>
+        <div class="slide"><img src="img/empresa/mikropar.png" alt="Mikropar"></div>
+        <div class="slide"><img src="img/empresa/novatempera.png" alt="NovaTempera"></div>
+        <div class="slide"><img src="img/empresa/uniao.png" alt="EletricaUniao"></div>
+        <div class="slide"><img src="img/empresa/vidrolandia.png" alt="Vidrolandia"></div>
+        <div class="slide"><img src="img/empresa/warehouse.png" alt="WareHouse"></div>
+      </section>
+    </div>
+    <div class="fundoGelo border-radius">
+      <div class="section container ">
+        <h2 class=" text-center title">Nossas soluções </h2>
+        <div class="text-center cardHome">
+          <a href="/MORERP">
+            <div class="card col-sm-4 card-custom">
+              <div class="info">
+                <div class="icon icon-primary">
+                  <img src="./img/logoCard/morerp.png" class="imgCard" alt="MORERP">
+                </div> <br>
+                <h4 class="text-black">Comercial, Faturamento, Financeiro , Escrita
+                  Fiscal, Folha de Pagamento, Contabilidade, Apontamento de Produção,
+                  Controle de Produção, Suporte a Decisão.</h4>
+                <a class="text-blue" href="/MORERP">Saiba mais <br> <i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </a>
+          <a href="/MORERP">
+            <div class="card col-sm-4 card-custom">
+              <div class="info">
+                <div class="icon icon-primary">
+                  <img src="./img/logoCard/mortemp.png" class="imgCard" alt="MORTEMP">
+                </div> <br>
+                <h4 class="text-black">Tratamento Térmico, Forno, Chão de Fábrica,
+                  Recebimento, Produção, Qualidade, Faturamento, Relatórios.</h4>
+                <a class="text-blue" href="/MORERP">Saiba mais<br><i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </a>
+          <a href="/MORERP">
+            <div class="card col-sm-4 card-custom">
+              <div class="info">
+                <div class="icon icon-primary">
+                  <img src="./img/logoCard/morbi.png" class="imgCard" alt="MORBI">
+                </div><br>
+                <h4 class="text-black">Soluções avançadas, Personalizáveis e
+                  Dashboards intuitivos para a rápida tomada de decições !</h4>
+                <a class="text-blue" href="/MORERP">Saiba mais<br> <i class="fa fa-angle-right"></i></a>
+              </div>
+            </div>
+          </a>
+        </div>
+        <br>
       </div>
     </div>
-  </footer>
 
+    <div class="section  text">
+      <h2 class=" text-center title">Nossa base é</h2><br>
+      <div class="container">
+        <div class="row">
 
+          <div class="col-sm-3">
+            <img class="imgProd" src="/img/uniao.jpg" alt="Uniao">
+          </div>
+          <div class="col-sm-9 ">
+            <ul>
+              <li>
+                <h4 class="textoBase">Excelência</h4>
+              </li><br>
+              <li>
+                <h4 class="textoBase">Ética</h4>
+              </li> <br>
+              <li>
+                <h4 class="textoBase">Responsabilidade Social e Empresarial</h4>
+              </li><br>
+              <li>
+                <h4 class="textoBase">Empatia</h4>
+              </li><br>
+              <li>
+                <h4 class="textoBase">Conhecimento</h4>
+              </li><br>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="fundoGelo">
+      <div class="section container  ">
+        <div class="row">
+          <div class="col-sm-6">
+            <h4>Com profissionais muito experientes e apaixonados por Tecnologia,
+              de perfis multidisciplinar, certificados com vivência de mercado em
+              análise de negócio, desenvolvimento de software, projetos, e outras
+              áreas ligadas a TI e Gestão. Nossa capacitação técnica é perfeitamente
+              adaptada ao nosso parceiro com uma base fundada numa comunicação onde
+              nossa equipe e os usuários falam a mesma linguagem.
+            </h4>
+          </div>
+          <div class="col-sm-5">
+            <img class="imgProd " src="./img/profissionais.jpg" alt="Profissionais">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
 
+    @include('email/email')
 
-
-
-
-
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-  <script>
-    (function (w, d, u) {
-      var s = d.createElement('script');
-      s.async = true;
-      s.src = u + '?' + (Date.now() / 60000 | 0);
-      var h = d.getElementsByTagName('script')[0];
-      h.parentNode.insertBefore(s, h);
-    })(window, document, 'https://cdn.bitrix24.com.br/b10684121/crm/site_button/loader_2_yhmc66.js');
-  </script>
-
-
+  </div>
+  </div>
+  @include('footer/footer')
 </body>
+<script src="/js/email/email.js"></script>
+<script src="/js/principal/principal.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script>
+
+</script>
 
 </html>
