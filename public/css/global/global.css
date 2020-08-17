@@ -1,0 +1,164 @@
+h2 {
+  font-size: 2.1rem;
+}
+
+.custom {
+  size: 15px;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.card-custom {
+  min-width: 250px;
+  margin-left: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-right: 0px;
+  max-width: 350px;
+
+}
+
+.card-custom:hover {
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+  filter: drop-shadow(15px 10px 5px rgba(99, 88, 88, 0.5));
+}
+
+.section {
+  padding-bottom: 25px;
+  padding-top: 25px;
+
+}
+
+.texto-custom {
+  text-align: left;
+  font-size: 12px;
+}
+
+.imgProd {
+  width: 100%;
+  border-radius: 25px;
+  border: 1px;
+  border-style: solid;
+  border-color: #120650;
+
+}
+
+.text-black {
+  color: black;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-blue {
+  color: #120650;
+}
+
+.fa {
+  font-size: 1.25rem;
+}
+
+.formHome {
+  padding-left: 15px;
+  padding-top: 35px;
+}
+
+.buttonHome {
+  width: 100%;
+  background-color: blue;
+}
+
+.fundoGelo {
+  background-color: #eee;
+}
+
+.fundoBranco {
+  background-color: #fff;
+}
+
+.titulos {
+  color: #120650;
+  font-size: 2.5rem;
+}
+
+.textoBase {
+  color: #19191dd1;
+}
+
+.cardHome {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.contato {
+  padding: 0 0 0;
+  padding-left: 10px;
+}
+
+.contatoCustom {
+  padding-top: 0px;
+}
+
+.info p {
+  color: #120650;
+}
+
+.form-control {
+  /* RETIRAR AS BORDAS DO INPUT*/
+  border: 0;
+  ;
+}
+
+.inputCustom {
+  background-size: 1% 100%, 100% 100%;
+  background-image: linear-gradient(to top, #6b6b85ce 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+
+.topo {
+  height: 64vh;
+}
+
+.tituloPrincipal {
+  justify-content: center;
+  display: flex;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.menuSolucoes {
+  display: flex;
+  flex-flow: column;
+  align-items: center
+}
+
+.border-radius {
+  border-radius: 5px;
+}
+
+.player {
+  min-height: 550px;
+  padding: 50px;
+  background: black;
+  border-radius: 5px;
+}
+
+.divWhats {
+  max-width: 36px;
+  max-height: 36px;
+}
+#linkWhats{
+  cursor: pointer;
+}
+.Contatos{
+  margin-top: -78px;
+}
+.btnEnviar{
+  margin-bottom: 60px;
+}

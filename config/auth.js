@@ -1,5 +1,6 @@
 'use strict'
 
+/** @type {import('@adonisjs/framework/src/Env')} */
 const Env = use('Env')
 
 module.exports = {
@@ -15,7 +16,7 @@ module.exports = {
   | Available Serializers - lucid, database
   |
   */
-  authenticator: 'jwt',
+  authenticator: 'session',
 
   /*
   |--------------------------------------------------------------------------
@@ -66,10 +67,10 @@ module.exports = {
   */
   jwt: {
     serializer: 'lucid',
-    model: 'App/Models/Usuario',
+    model: 'App/Models/User',
     scheme: 'jwt',
-    uid: 'Usuario',
-    password: 'Senha',
+    uid: 'email',
+    password: 'password',
     options: {
       secret: Env.get('APP_KEY')
     }
