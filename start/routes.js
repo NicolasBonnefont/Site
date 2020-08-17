@@ -26,3 +26,4 @@ Route.on('/RelatorioCompras').render('/RelatorioCompras')
 
 Route.post('email', 'EmailController.store')
 Route.post('api/contador', "AnaliseController.contador")
+Route.post('api/acessos', "AnaliseController.acessos")

@@ -55,7 +55,7 @@
       <div class="section container ">
         <h2 class=" text-center title">Nossas soluções </h2>
         <div class="text-center cardHome">
-          <a class="acesso" href="/MORERP">
+          <a onclick="acesso('CARD MOR ERP')" href="/MORERP">
             <div class="card col-sm-4 card-custom">
               <div class="info">
                 <div class="icon icon-primary">
@@ -67,7 +67,7 @@
               </div>
             </div>
           </a>
-          <a href="/MORTEMP">
+          <a onclick="acesso('CARD MOR TEMP')" href="/MORTEMP">
             <div class="card col-sm-4 card-custom">
               <div class="info">
                 <div class="icon icon-primary">
@@ -79,7 +79,7 @@
               </div>
             </div>
           </a>
-          <a href="/MORBI">
+          <a onclick="acesso('CARD MOR ERP')" href="/MORBI">
             <div class="card col-sm-4 card-custom">
               <div class="info">
                 <div class="icon icon-primary">
@@ -97,30 +97,30 @@
     </div>
 
     <div class="section  text">
-      <h2 class=" text-center title">Nossa base é</h2><br>
+      <h2 class=" text-center title">Nossos valores</h2><br>
       <div class="container">
         <div class="row">
 
           <div class="col-sm-3">
             <img class="imgProd" src="/img/uniao.jpg" alt="Uniao">
           </div>
-          <div class="col-sm-9 ">
+          <div class="col-sm-9 "><br>
             <ul>
               <li>
-                <h4 class="textoBase">Excelência</h4>
-              </li><br>
+                <h3 class="textoBase">Excelência</h3>
+              </li>
               <li>
-                <h4 class="textoBase">Ética</h4>
-              </li> <br>
+                <h3 class="textoBase">Ética</h3>
+              </li>
               <li>
-                <h4 class="textoBase">Responsabilidade Social e Empresarial</h4>
-              </li><br>
+                <h3 class="textoBase">Responsabilidade Social e Empresarial</h3>
+              </li>
               <li>
-                <h4 class="textoBase">Empatia</h4>
-              </li><br>
+                <h3 class="textoBase">Empatia</h3>
+              </li>
               <li>
-                <h4 class="textoBase">Conhecimento</h4>
-              </li><br>
+                <h3 class="textoBase">Conhecimento</h3>
+              </li>
             </ul>
           </div>
         </div>
@@ -152,13 +152,10 @@
   </div>
   </div>
   @include('footer/footer')
-</body>
+
 <script src="/js/email/email.js"></script>
 <script src="/js/principal/principal.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-<script src="/js/acesso/acesso.js"></script>
-<script>
-
-</script>
-
+<script>axios.post('/api/contador')</script>
+</body>
 </html>

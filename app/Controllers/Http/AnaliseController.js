@@ -12,14 +12,22 @@ class AnaliseController {
     const acesso = await Acesso.create(data)
     await acesso.save()
 
+    return acesso
+
   }
 
   async contador({request, response, params}){
-    console.log('aqui')
+
     const contador = await Contador.find(1)
 
-    console.log(contador)
+    if(contador.acessos == null) {
+      contador.acessos = 0
+    }
 
+    const acessos = contador.acessos ++
+
+    await contador.merge(acessos)
+    await contador.save()
 
   }
 }
