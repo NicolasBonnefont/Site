@@ -22,9 +22,7 @@ Route.on('/Estoque').render('/Estoque')
 Route.on('/RelatorioCompras').render('/RelatorioCompras')
 
 
-
-
-
 // ROTA DA API DE EMAIL
 
 Route.post('email', 'EmailController.store')
+Route.post('api/contador', "AnaliseController.contador")
