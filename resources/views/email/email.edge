@@ -23,7 +23,10 @@
               <textarea class="form-control inputCustom" rows="4" id="texto" required></textarea>
             </div>
             <div class="submit text-center">
-              <button type="submit" class="btn btn-primary btn-round btnEnviar">Enviar <i class="fa fa-paper-plane"></i></button>
+              <button
+              data-sitekey="reCAPTCHA_site_key"
+              data-callback='onSubmit'
+              data-action='submit' type="submit" class="g-recaptcha btn btn-primary btn-round btnEnviar">Enviar <i class="fa fa-paper-plane"></i></button>
             </div>
           </form>
         </div>
@@ -83,3 +86,9 @@
         </div>
       </div>
     </div><br>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcEhcEZAAAAAPyHiocJouZd4c3WLcDvVVOB9J_N"></script>
+    <script>
+      function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+      }
+    </script>
