@@ -1,9 +1,22 @@
+@include('navbar/nav')
 
-@include('nav/nav')
-<link href="../css/404/404.css" rel="stylesheet">
+<link href="css/erp/erp.css" rel="stylesheet" />
 
-<h1>Página não encontrada :( </h1>
-<br>
-<a href="/pag/principal"><i class="material-icons">arrow_back
-  </i>Voltar</a>
-  
+
+
+
+<div class="notFound">
+  <img src="img/404/404.gif" alt="Pagina nao Encontrada">
+
+  <p>Pagina nao encontrara ! </p>
+  <a href="#" onclick="window.history.back()"><span class="material-icons">keyboard_arrow_left
+    </span> Voltar </a>
+
+</div>
+
+
+
+
+
+<script src="./js/erp/erp.js"></script>
+<link href="css/notFound/notFound.css" rel="stylesheet" />

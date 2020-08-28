@@ -1,0 +1,19 @@
+.notFound{
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+body{
+  background-color: #fff;
+}
+a{
+  color: black;
+}
+
+
+img{
+  max-width: 350px;
+}

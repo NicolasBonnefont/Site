@@ -20,6 +20,11 @@ Route.on('/PedidoCompras').render('/PedidoCompras')
 Route.on('/Qualidade').render('/Qualidade')
 Route.on('/Estoque').render('/Estoque')
 Route.on('/RelatorioCompras').render('/RelatorioCompras')
+Route.on('/videos').render('/videos/videos')
+
+
+
+Route.on('*').render('404')
 
 
 // ROTA DA API DE EMAIL
