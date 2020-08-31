@@ -13,7 +13,7 @@ async function enviaEmail() {
         allowOutsideClick: false,
         position: 'center',
         icon: 'success',
-        title: 'Obrigado pela sua mensagem !',
+        title: 'Obrigado pela a mensagem !',
         showConfirmButton: false,
         timer: 1800
 
