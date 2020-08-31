@@ -1,1 +1,82 @@
 @include('navbar/nav')
+
+<link href="css/global/global.css" rel="stylesheet" />
+<link href="css/videos/videos.css" rel="stylesheet" />
+
+<!--<link href="css/erp/erp.css" rel="stylesheet" />  -->
+
+<body class="index-page sidebar-collapse">
+
+  <link href="css/bi/bi.css" rel="stylesheet" />
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url('./img/videos/fundo.jpg');"
+    id="Top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="title">Nosso canal do Youtube !</h1>
+          <a href="https://www.youtube.com/channel/UCK91O8NCelI_Fr-5GK1D2Rg" target="_blank"
+            class="btn btn-danger btn-raised btn-lg">
+            MOR INFORMATICA <i class="fa fa-play"></i>
+            <div class="ripple-container"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main main-raised">
+
+    <div class="section fundoGelo border-radius " style="background-image: url('/img/fundo.svg');padding: 0;"><br>
+
+
+
+
+      <div class="cardHome container">
+        <div class="col " style="text-align: -webkit-center;">
+          <div class="card cardBi card-custom ">
+            <a href="https://www.youtube.com/watch?v=uzZs9i3cG5Y">
+              <img class="card-img-top"
+                src="https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                rel="nofollow" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">O que é Business Intelligence? A inteligencia empresarial que irá alavancar o seu
+                  negócio !</h4>
+              </div>
+            </a>
+
+          </div>
+        </div>
+        <div class="col" style="text-align: -webkit-center;">
+          <div class="card cardBi card-custom" style="width: 100%;">
+            <img class="card-img-top"
+              src="https://images.pexels.com/photos/669619/pexels-photo-669619.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              rel="nofollow" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Porque aconteceu?</h4>
+              <h5 class="card-text">Entenda a sua empresa através dos seus números.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="text-align: -webkit-center;">
+          <div class="card cardBi card-custom" style="width: 100%;">
+            <img class="card-img-top"
+              src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              rel="nofollow" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">O que pode acontecer?</h4>
+              <h5 class="card-text">Trace cenários e previsões futuras, identifique e se antecipe as tendências.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="container">
+      @include('email/email')
+    </div>
+
+  </div>
+
+</body>
+<script src="./js/erp/erp.js"></script>
+@include('footer/footer')

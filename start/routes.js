@@ -21,13 +21,9 @@ Route.on('/Qualidade').render('/Qualidade')
 Route.on('/Estoque').render('/Estoque')
 Route.on('/RelatorioCompras').render('/RelatorioCompras')
 Route.on('/videos').render('/videos/videos')
-
-
+/* Route.on('/equipemor').render('/equipemor') */
 
 Route.on('*').render('404')
-
-
-// ROTA DA API DE EMAIL
 
 Route.post('email', 'EmailController.store')
 Route.post('api/contador', "AnaliseController.contador")
