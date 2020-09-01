@@ -1,6 +1,6 @@
 .header-filter::before {
-  background: rgb(40 14 185 / 25%);
+  background: rgb(0 0 42);
 }
 .index-page .page-header {
-  height: 90vh;
+  height: 35vh;
 }
