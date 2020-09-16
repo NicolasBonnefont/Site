@@ -5,6 +5,7 @@
   "description": "The fullstack application boilerplate for Adonisjs",
   "main": "index.js",
   "scripts": {
+    "dev":"adonis serve --dev",
     "start": "node server.js",
     "test": "node ace test"
   },

@@ -1,12 +1,19 @@
-.imgLogo{
+.imgLogo {
   /* width: 60px; */
   border-radius: 5px;
   padding: 0;
 }
-.menuSolucoes{
+
+.menuSolucoes {
   justify-content: center;
 }
-.navbar{
-padding:0 ;
-height: 95px;
+
+.navbar {
+  padding: 0;
+  height: 95px;
+}
+
+.contatos {
+  background-color: #fff;
+
 }
