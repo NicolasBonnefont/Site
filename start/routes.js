@@ -21,6 +21,7 @@ Route.on('/Qualidade').render('/Qualidade')
 Route.on('/Estoque').render('/Estoque')
 Route.on('/RelatorioCompras').render('/RelatorioCompras')
 Route.on('/videos').render('/videos/videos')
+Route.on('/contato').render('/contato')
 /* Route.on('/equipemor').render('/equipemor') */
 
 Route.on('*').render('404')
