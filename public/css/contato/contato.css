@@ -1,10 +1,4 @@
 .topo{
   height: 8vh;
 }
-@media (max-width: 375px){
 
-.main.main-raised {
-  margin-top: 0px;
-}
-
-}
