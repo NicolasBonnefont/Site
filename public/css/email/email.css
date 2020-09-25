@@ -11,6 +11,10 @@
 .title-secundario{
   margin: 0%;
 }
+
+
+
+
 @media (max-width: 375px){
 .main.main-raised {
     margin-top: -112px;
