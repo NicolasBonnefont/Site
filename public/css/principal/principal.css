@@ -152,5 +152,22 @@
   margin-top:50px
 }
 .margin-lottie{
-  margin-top: -50px
+  margin-top: -50px;
+  margin-bottom: -80px;
+}
+.main-raised{
+  margin: -80px 30px 0px;
+}
+@media (max-width: 830px) {
+  .main-raised {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.title-principal{
+  margin-bottom: 0;
+}
+.title-secundario{
+  margin: 0%;
 }
