@@ -2,18 +2,13 @@
   border: groove;
   border-radius: 10px;
 } */
-.topo{
-  height: 8vh;
-}
+
 .title-principal{
   margin-bottom: 0;
 }
 .title-secundario{
   margin: 0%;
 }
-
-
-
 
 @media (max-width: 375px){
 .main.main-raised {
