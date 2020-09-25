@@ -15,4 +15,4 @@
 
 ## Informações Adicionais :
 
-Para  maiores detalhes: morinfo@morinfo.com.br
+Para  maiores detalhes: nicolas@morinfo.com.br
