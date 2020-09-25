@@ -18,12 +18,17 @@
     id="Top">
     <div class="container acesso">
       <div class="row">
-        <div class="col-md-12 ml-auto mr-auto">
-          <div class="brand">
-            <h2 >Com os softwares da MOR, você encontra as respostas certas para a gestão do seu negócio!
-              Soluções
-              para indústrias e comércios.</h2>
-          </div>
+        <div class="col-sm-8 ">
+          <h1 class="title">Há mais de 27 anos no mercado !</h1>
+          <h3>Com os softwares da MOR, você encontra as respostas
+            certas para a gestão do seu negócio! Soluções para
+            indústrias e comércios.</h3>
+
+
+          <a href="#contato" class="btn btn-danger btn-raised btn-lg">
+            <i class="material-icons">chat</i> Fale conosco !
+            <div class="ripple-container"></div></a>
+
         </div>
       </div>
     </div>
@@ -102,10 +107,10 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-sm-3">
-            <img class="imgProd" src="/img/uniao.jpg" alt="Uniao">
+          <div class="col-sm-5">
+            <img class="imgProd" src="https://images.unsplash.com/photo-1592878995758-02b32ddabdd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Uniao">
           </div>
-          <div class="col-sm-9 "><br>
+          <div class="col-sm-6 "><br>
             <ul>
               <li>
                 <h3 class="textoBase">Excelência</h3>
@@ -131,17 +136,20 @@
     <div class="fundoGelo">
       <div class="section container  ">
         <div class="row">
-          <div class="col-sm-6">
-            <h4>Com profissionais muito experientes e apaixonados por Tecnologia,
+          <div class="col-sm-6 margin-profi">
+            <h3 class="textoBase">Com profissionais muito experientes e apaixonados por Tecnologia,
               de perfis multidisciplinar, certificados com vivência de mercado em
               análise de negócio, desenvolvimento de software, projetos, e outras
-              áreas ligadas a TI e Gestão. Nossa capacitação técnica é perfeitamente
+              áreas ligadas a TI e Gestão.<!--  Nossa capacitação técnica é perfeitamente
               adaptada ao nosso parceiro com uma base fundada numa comunicação onde
-              nossa equipe e os usuários falam a mesma linguagem.
-            </h4>
+              nossa equipe e os usuários falam a mesma linguagem -->
+            </h3>
           </div>
-          <div class="col-sm-5">
-            <img class="imgProd " src="./img/profissionais.jpg" alt="Profissionais">
+          <div class="col-sm-6 margin-lottie">
+           <!--  <img class="imgProd " src="img/principal/team.gif" alt="Profissionais"> -->
+           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+           <lottie-player class="lottie" src="https://assets3.lottiefiles.com/packages/lf20_ObEdDk.json"  background="transparent"
+           speed="1"  style="width: 300; height: 300;"  loop  autoplay></lottie-player>
           </div>
         </div>
       </div>
@@ -155,7 +163,8 @@
   @include('footer/footer')
 
 
-<script src="/js/principal/principal.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="/js/principal/principal.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 </body>
+
 </html>
