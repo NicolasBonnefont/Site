@@ -165,11 +165,12 @@
   }
 }
 
-@media (max-width: 600px) {
+ @media (max-width: 500px) {
   h2{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   h3{
-    font-size:1.4rem;
+    font-size:1.6rem;
   }
 }
+
