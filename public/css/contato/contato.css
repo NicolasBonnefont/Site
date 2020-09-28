@@ -2,3 +2,8 @@
   height: 8vh;
 }
 
+@media (max-width: 530px) {
+  h4{
+    font-size: .8rem;
+  }
+}
