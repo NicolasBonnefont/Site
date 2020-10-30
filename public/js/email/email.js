@@ -23,6 +23,7 @@ async function enviaEmail() {
 
        document.getElementById('formHome').reset()
        document.getElementById('btnEnviaEmail').disabled = false
+       location.href = "https://morinfo.com.br/obrigado";
       })
     })
     .catch(function (erro) {
