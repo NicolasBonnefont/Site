@@ -18,7 +18,7 @@ async function enviaEmail() {
         timer: 1800
 
       }).then((result) => {
-
+        
        document.getElementById('formHome').reset()
       })
     })
