@@ -1,18 +1,25 @@
 @include('navbar/nav')
 
 
-<div class="card obrigado container">
-  <div class="row">
-    <div class="col">
+<div class="obrigado container">
+
+  <div class="row flex card" >
+
+
+    <div class="col-md-4">
+      <h3 class="title">
+        Obrigado pelo contato! Em breve, retornaremos.
+      </h3>
+    </div>
+    <div class="col-md-4">
       <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
       <lottie-player class="lottie" src="https://assets2.lottiefiles.com/packages/lf20_8X9g6l.json"
         background="transparent" speed="1" style="width: 400; height: 400;" loop autoplay></lottie-player>
     </div>
+
   </div>
-  <h3 class="title">
-    Obrigado pelo contato! Em breve, retornaremos.
-  </h3>
 </div>
+
 <!-- Event snippet for Lead - Formulário preenchido (PG OBRIGADO) conversion page -->
 <script>
   gtag('event', 'conversion', {
