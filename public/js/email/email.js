@@ -1,6 +1,8 @@
 async function enviaEmail() {
   event.preventDefault()
 
+  document.getElementById('btnEnviaEmail').disabled = true
+
   axios.post('/email',
     {
       'nome': document.getElementById('nome').value,
@@ -20,9 +22,12 @@ async function enviaEmail() {
       }).then((result) => {
 
        document.getElementById('formHome').reset()
+       document.getElementById('btnEnviaEmail').disabled = false
       })
     })
     .catch(function (erro) {
       console.log(erro)
+      document.getElementById('formHome').reset()
+      document.getElementById('btnEnviaEmail').disabled = false
     })
 }
