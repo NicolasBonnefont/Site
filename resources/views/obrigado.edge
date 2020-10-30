@@ -1,24 +1,32 @@
 @include('navbar/nav')
-<link href="css/email/email.css" rel="stylesheet" />
-<link href="css/global/global.css" rel="stylesheet" />
-<!-- <link href="css/bi/bi.css" rel="stylesheet" /> -->
 
 
-<div class="page-header header-filter topo" id="Top">
-</div>
+    <div class="card obrigado container">
+      <div class="row">
+        <div class="col">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player class="lottie" src="https://assets2.lottiefiles.com/packages/lf20_8X9g6l.json"  background="transparent"
+          speed="1"  style="width: 400; height: 400;"  loop  autoplay></lottie-player>
+         </div>
+      </div>
+      <h3 class="title">
+        Obrigado pelo contato! Em breve, retornaremos.
+      </h3>
+    </div>
 
-<div class="section"></div>
 
-<div class="main main-raised">
-  <br>
-  <div class="container">
-    @include('email/email')
-  </div>
 
-</div>
-<link href="css/contato/contato.css" rel="stylesheet" />
-<script src="js/contato/contato.js"></script>
+
+
+<!-- Event snippet for Lead - Formulário preenchido (PG OBRIGADO) conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-529116119/nqSzCNXawOUBENfXpvwB'});
+</script>
+
+<script>
+  fbq('track', 'Lead');
+</script>
+
+<link href="css/obrigado/obrigado.css" rel="stylesheet" />
 <script src="js/erp/erp.js"></script>
-
-
 @include('footer/footer')
