@@ -1,5 +1,5 @@
 async function enviaEmail() {
-  event.preventDefault()
+  Event.preventDefault()
 
   document.getElementById('btnEnviaEmail').disabled = true
 

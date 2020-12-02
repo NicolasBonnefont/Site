@@ -24,8 +24,10 @@ Route.on('/videos').render('/videos/videos')
 Route.on('/obrigado').render('/obrigado')
 /* Route.on('/equipemor').render('/equipemor') */
 
-Route.on('*').render('404')
-
 Route.post('email', 'EmailController.store')
 Route.post('api/contador', "AnaliseController.contador")
 Route.post('api/acessos', "AnaliseController.acessos")
+
+Route.on('*').render('404')
+
+
