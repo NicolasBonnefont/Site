@@ -9,6 +9,7 @@ class AnaliseController {
 
     const data = await request.all()
 
+
     const acesso = await Acesso.create(data)
     await acesso.save()
 
@@ -27,7 +28,7 @@ class AnaliseController {
     const acessos = contador.acessos ++
 
     await contador.merge(acessos) */
-    await Contador.create({acessos:''})
+    await Contador.create({acessos:0})
 
 
   }
