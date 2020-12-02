@@ -27,5 +27,5 @@ Route.on('/obrigado').render('/obrigado')
 Route.on('*').render('404')
 
 Route.post('email', 'EmailController.store')
-Route.post('api/contador', "AnaliseController.contador")
-Route.post('api/acessos', "AnaliseController.acessos")
+Route.post('api/contador', "AnaliseController.Contador")
+Route.post('api/acessos', "AnaliseController.Acessos")
