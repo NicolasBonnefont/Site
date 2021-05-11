@@ -20,7 +20,9 @@ $(document).ready(function(){
     }]
   });
 });
-function whats(){
+function whatsComercial(){
   window.open('https://api.whatsapp.com/send?phone=5511970765606&text=Ol%C3%A1%20!%20Gostaria%20de%20Mais%20Informa%C3%A7%C3%B5es.','_blank');
-
+}
+function whatsSuporte(){
+  window.open('https://api.whatsapp.com/send?phone=5511970766408&text=Ol%C3%A1%20!%20Gostaria%20de%20Ajuda.','_blank');
 }
